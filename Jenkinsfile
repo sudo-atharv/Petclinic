@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/sudo-atharv/Petclinic.git'
+                git branch: 'dev-1', url: 'https://github.com/sudo-atharv/Petclinic.git'
             }
         }
         
