@@ -4,5 +4,5 @@ FROM tomcat:9.0-jdk8-openjdk-slim
 EXPOSE 8080
 
 # Deploy the .war to Tomcat’s webapps directory
-COPY target/petclinic.war /opt/apache-tomcat-9.0.65/webapps/webapps/petclinic.war
+COPY target/petclinic.war /opt/apache-tomcat-9.0.65/webapps/petclinic.war
 
